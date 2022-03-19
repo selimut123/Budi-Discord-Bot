@@ -4,6 +4,7 @@ import json
 import pickle
 from unittest import result
 import numpy as np
+import config
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -124,4 +125,4 @@ async def on_message(message):
         if response:
             await message.channel.send(response)
 
-client.run('OTUzNTE3Mzc5MjczNTIzMjAx.YjFuQg.e321caWAlk7KtYs65MvGa8CggnE')
+client.run(config.api_token)
