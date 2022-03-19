@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello budi", "Hi budi", "Is anyone there?", "anyone here?", "Hay budi", "Assalamualaikum budi"],
+     "responses": ["Hello, salam kenal saya Budi", "Hello, saya Budi"]
+    },
+    {"tag": "pussi",
+     "patterns": ["I have a midterm", "Im doing my assignment", "Masih nugas sekarang guys","masih ada midterm", "Tugas lagi numpuk", "My tugas berjibun", "Gw nugas sebentar", "I cannot play", "gw skip dulu", "gw engga main dahulu", "gw udahan dulu ya", "nanti lagi mainnya"],
+     "responses": ["Anda Lemah", "Pussi", "Jangan kabur donk"]
+    },
+    {"tag": "bola",
+     "patterns": ["Budi bermain bola", "budi senang bermain bola", "budi suka bermain bola"],
+     "responses": ["Budi senang mainin bola dikamar mandi"]
+    },
+    {"tag": "play",
+     "patterns": ["ada yang mau main?", "play?", "plei?", "main yuk gaes", "main yuk guys", "Valorant?", "Ada yang mau valorant?", "Valo anyone?", "maen"],
+     "responses": ["Budi jago bermain Valorant", "no", "Ayok 1v1 sama budi", "Ayok teman-teman main sama Budi"]
+    },
+    {"tag": "diam",
+     "patterns": ["Bacot Budi", "shutup Budi", "Budi tolong diam", "jangan berisik Budi", "diam budi", "ngomong terus si Budi", "stfu Budi", "stfu", "shutup", "bacot lu"],
+     "responses": ["You shutup", "no"]
+    },
+    {"tag": "thanks",
+     "patterns": ["thank you", "terima kasih buat bantuannya", "makasih banyak", "terima kasih", "ty"],
+     "responses": ["stfu", "sok baik anda", "sama-sama"]
+    },
+    {"tag": "curses",
+     "patterns": ["ngentot", "bacot", "anjing", "kontol", "fuck you", "memek", "fucking retard", "retarded", "autis", "autism"],
+     "responses": ["kasar ya abank", "santai mas", "jangan kasar donk mas"]
+    },
+    {"tag": "bingung",
+     "patterns": ["wtf", "what the fuck", "huh", "hah", "kok bisa", "gimana caranya", "bingung gw guys", "pusing gw", "engga ngerti gw"],
+     "responses": ["Budi pusing", "kok pada bingung", "dasar bodoh"]
+    },
+    {"tag": "alim",
+     "patterns": ["Im fixing my sleep schedule", "sudah tobat saya", "udh tobat", "sudah jadi anak baik sekarang", "uda baik", "tidurnya udah bener"],
+     "responses": ["bacot", "ada yang bohong"]
+    }
+]
+}
